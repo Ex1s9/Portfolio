@@ -1,0 +1,11 @@
+.App {
+  background-color: #353A40;
+  width: 100vw;
+  height: 200vh;
+  z-index: 1;
+}
+
+body {
+	width: 100%;
+	margin: 0 auto;
+}
