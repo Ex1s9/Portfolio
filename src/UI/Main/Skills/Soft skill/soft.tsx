@@ -1,6 +1,8 @@
-
+import "./soft.css";
 export const Soft = () => {
    return (
-      <div>soft-skill</div>
+      <div className="soft">
+         test
+      </div>
    )
 }

@@ -1,0 +1,30 @@
+.hard-skill {
+   display: grid;
+   
+}
+
+.other-color {
+   color: #D3B3EE;
+}
+
+.skills-text {
+   color: #FFFFFF;
+   display: flex;
+   justify-content: center;
+   gap: 30rem;
+}
+
+.skills-item {
+   list-style: none;
+}
+
+.skills-list {
+   color: #FFFFFF;
+   
+}
+
+.skills {
+   display: flex;
+   justify-content: center;
+   gap: 30rem;
+}
