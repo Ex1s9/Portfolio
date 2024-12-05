@@ -10,6 +10,7 @@ export const Hard = () => {
                <span className="other-color">Soft</span> skills
             </h2>
          </div>
+
          <div className="skills">
             <div className="skills-cont1">
                <ul className="skills-list">
@@ -20,6 +21,7 @@ export const Hard = () => {
                   <li className="skills-item">Express.js</li>
                </ul>
             </div>
+            
             <div className="skills-cont2">
                <ul className="skills-list">
                   <li className="skills-item">React</li>

@@ -15,7 +15,14 @@
 }
 
 .skills-item {
+   margin: 1rem 1rem;
+   background: #141313;
    list-style: none;
+   transition: all .3s ease-out;
+}
+
+.skills-item:hover {
+   background: #252323;
 }
 
 .skills-list {
