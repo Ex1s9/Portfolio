@@ -1,0 +1,56 @@
+.project {
+   padding: 50px;
+   border-radius: 20px;
+   background-color: #19222A;
+   max-width: 1125px;
+   margin: 0 auto;
+   margin-top: 50px;
+   text-align: center;
+   height: 170vh;
+   font-family:'Lora', serif;
+}
+
+.project h1, h3, p {
+   color: #fff;
+   margin: 0 auto;
+}
+
+.project h1, h3{
+   margin-bottom: 20px;
+   font-size: 28px;
+}
+
+.project p {
+   text-align: left;
+   font-size: 20px;
+}
+
+.project a {
+   color: #fff;
+   font-size: 20px;
+}
+
+.project-container li {
+   font-size: 1rem;
+   list-style: none;
+   color: #fff;
+}
+
+.project-container-stack {
+   background: -webkit-linear-gradient(45deg, #133763,#137190,#e0e28f); 
+   border-radius: 10px;
+   padding: 16px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+   text-align: center;
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+
+.project-link {
+   text-align: left;
+}
+
+.project-link a{
+   color: #DADF8F;
+}

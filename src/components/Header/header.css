@@ -1,0 +1,47 @@
+.header {
+   padding-top: 0;
+   border-radius: 30px;
+   background-color: #19222A;
+   margin: 1rem auto;
+   height: 50px;
+   max-width: 400px;
+   display: flex;
+   justify-content: center;
+   font-family:'Lora', serif;
+   animation: ani 1.5s forwards;
+}
+
+@keyframes ani {
+   0% { opacity: 0; }
+   100% { opacity: 1; }
+}
+
+.nav-links {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+.nav-link {
+   text-decoration: none;
+   color: #F6ECFF;
+   font-size: 1.1rem;
+   font-family: 'Lora', serif;
+   padding: 0.5rem 1rem;
+   transition: background-color 0.3s ease, color 0.3s ease;
+   border-radius: 20px;
+}
+
+.nav-link.contact {
+   background-color: #F6ECFF; /* Цвет фона для активного элемента */
+   color: #2F3742; /* Темный текст */
+   font-weight: bold;
+}
+
+.nav-link:hover {
+   background-color: #C7BBFF; /* Подсветка */
+   color: #2F3742; /* Темный текст при наведении */
+}

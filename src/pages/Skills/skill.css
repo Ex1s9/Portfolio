@@ -1,0 +1,56 @@
+.skill {
+   font-family:'Lora', serif;
+}
+
+.skill-text {
+   color: #fff;
+   text-align: center;
+   margin-top: 5rem;
+}
+
+.txt {
+   -webkit-text-fill-color: transparent;
+   -webkit-text-stroke: 1px #ebdef7;
+}
+
+/* контейнер для карточек */
+.skill-tech-block {
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   gap: 3rem;
+   margin: 0 auto;
+   font-size: 5rem;
+}
+
+/* ограничение кол-ва строк */
+.skill-tech-block {
+   grid-template-rows: repeat(2, auto);
+   overflow: hidden;
+}
+
+.soft-list {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   max-width: 800px;
+   margin: 0 auto;
+}
+
+.soft-list li {
+   font-size: 1rem;
+   list-style: none;
+   color: #fff;
+}
+
+.soft-list-card {
+   background: black;
+   border-radius: 10px;
+   padding: 20px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+   max-width: 300px;
+}
+
+.skill-list-card:hover {
+   transform: translateY(-5px);
+   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
